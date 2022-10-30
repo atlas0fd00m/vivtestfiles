@@ -1,4 +1,8 @@
+#ifdef __linux
+#else
 #include <windows.h>
+#endif
+
 #include <stdio.h>
 
 /*
